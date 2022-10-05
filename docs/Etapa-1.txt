@@ -1,7 +1,9 @@
 A pagina inicial deverá conter o login do usuario e o login do admin, logo com o cadastro das devidas pessoas e usuarios.
 login:
-usuario = cpf e senha 
-admin = cpf e senha
+usuario = cpf e senha, id
+admin = cpf e senha, matricula
 Cadastro:
 usuario = id, cpf, senha, nome, email, data de nascimento, endereço, sexo, telefone, familiar proximo, denuncia.
 admin = matricula, cpf, senha, email, instituição, departamento, nome.
+
+As informações a cima serão divididas nas analises de requisitos e no diagrama que será especificado.
