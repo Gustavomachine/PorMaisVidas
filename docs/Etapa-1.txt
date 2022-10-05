@@ -7,3 +7,5 @@ usuario = id, cpf, senha, nome, email, data de nascimento, endereço, sexo, tele
 admin = matricula, cpf, senha, email, instituição, departamento, nome.
 
 As informações a cima serão divididas nas analises de requisitos e no diagrama que será especificado.
+
+Na página da denuncia conterá, identificação da denuncia, a denuncia, parecer, data e hora.
