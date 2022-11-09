@@ -2,13 +2,7 @@
 
 ## OBJETIVO PRINCIPAL
 
-
-
-```
-
-O objetivo do trabalho tem como facilitar os usuarios finais para uma denuncia rapida e acessível, possibilitando assim os servidores auxiliarem para ágir de maneira eficaz, evitando uma possivel fatalidade.
-
-```
+O sistema tem como proposta uma solução viavel para vitimas de violência, onde as mesmas podem realizarem seus cadastros ou logarem no site. 
 
 ### Usuario final:
 Agente Publico;
