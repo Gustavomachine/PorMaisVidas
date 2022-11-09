@@ -1,9 +1,16 @@
-                                            especificações sobre o projeto de auxilio a mulher
+# Especificações sobre o projeto de auxilio a mulher
 
-O objetivo do trabalho tem como facilitar os usuarios finais para uma denuncia rapida e acessível, possibilitando assim os servidores auxiliarem para ágir de maneira eficaz,
-evitando uma possivel fatalidade.
+## OBJETIVO PRINCIPAL
 
-1- usuario final:
+
+
+```
+
+O objetivo do trabalho tem como facilitar os usuarios finais para uma denuncia rapida e acessível, possibilitando assim os servidores auxiliarem para ágir de maneira eficaz, evitando uma possivel fatalidade.
+
+```
+
+### Usuario final:
 Agente Publico;
 resposavel por manusear as denuncias e gerir o atendimento, 
 logo tem direito a visualizar as informações como (tipo de violencia, 
