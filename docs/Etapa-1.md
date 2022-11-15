@@ -1,8 +1,10 @@
 # Especificações sobre o projeto de auxilio a mulher
 
-## OBJETIVO PRINCIPAL
+## 1. OBJETIVO PRINCIPAL
 
-O sistema tem como proposta uma solução viavel para vitimas de violência, onde as mesmas podem realizarem seus cadastros ou logarem no site. 
+O sistema tem como proposta uma solução viavel para vitimas de violência que possui medo do agressor, assim a essência do trabalho é proporcionar uma maneira simples, rapida e eficaz das vitimas denunciarem.
+
+## 2. Requisitos funcionais
 
 ### Usuario final:
 Agente Publico;
