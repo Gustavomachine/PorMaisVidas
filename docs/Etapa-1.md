@@ -2,7 +2,7 @@
 
 ## 1. OBJETIVO PRINCIPAL
 
-O sistema tem como proposta uma solução viavel para vitimas de violência que possui medo do agressor, assim a essência do trabalho é proporcionar uma maneira simples, rapida e eficaz das vitimas denunciarem.
+O sistema tem como proposta uma solução viavel para vitimas de violência que por medo de seus agressores (medo de se exporem), assim a essência do trabalho é proporcionar uma maneira simples, rapida e eficaz das vitimas denunciarem.
 
 ## 2. Requisitos funcionais
 1.Registrar o usuario. 
@@ -13,9 +13,9 @@ O sistema deve conter um metodo de cadastrar as informções do denunciante.
 
 o sistema devera conter um metodo de cadastrar as informações do agente publico.
 
-3. Formulario para o usuario final preencher as informações" (rever essa parte)"
+3. Visualizar denuncia
 Essencial
-O site deve ter um formulario para indentificar os dados necessarios para proceguir para a denuncia
+O site deverá conter uma pagina onde será possível visualizar a denuncia.
 
 4. Registrar a denuncia da vitima
 Essencial
