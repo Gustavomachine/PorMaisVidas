@@ -33,19 +33,6 @@ O sistema não avançará para a denuncia os outros dados até que a vitima info
 o sistema deverá conter a funcionalidade de login, logo identificando se será agente publico ou denunciante.
 
 
-## 3. Requisitos não funcionais
-
-1. Segurança
-
-acessos não autorizados ao sistema não serão permitidos . Portanto, é assegurada a integridade do sistema quanto a ataques intencionais ou acidentes.
-
-2. Confiabilidade
-
-Garantir maior probabilidade de uma operação livre de falhas no maior tempo possivel.
-
-3. Usabilidade
-
-Facilitar a utilização dos usuários ao lidarem com a ferramenta
 
 ### Usuario final:
 Agente Publico;
