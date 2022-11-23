@@ -32,8 +32,6 @@ O sistema não avançará para a denuncia os outros dados até que a vitima info
 7.Página de login.
 o sistema deverá conter a funcionalidade de login, logo identificando se será agente publico ou denunciante.
 
-
-
 ### Usuario final:
 Agente Publico;
 resposavel por manusear as denuncias e gerir o atendimento, 
@@ -46,3 +44,17 @@ local, Gravidade da agressão, data do ocorrido, )
 deverá conter o login do usuario e o login do admin, logo com o cadastro das devidas pessoas e usuarios.
 3- Na página da denuncia:
 conterá, identificação da denuncia, a denuncia, parecer, data e hora.
+
+## 3. Requisitos não funcionais
+
+###Segurança
+
+acessos não autorizados ao sistema não serão permitidos . Portanto, é assegurada a integridade do sistema quanto a ataques intencionais ou acidentes.
+
+###Confiabilidade
+
+Garantir maior probabilidade de uma operação livre de falhas no maior tempo possivel.
+
+###Usabilidade
+
+Facilitar a utilização dos usuários ao lidarem com a ferramenta
