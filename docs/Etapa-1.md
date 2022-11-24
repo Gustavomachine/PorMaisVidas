@@ -58,3 +58,19 @@ Garantir maior probabilidade de uma operação livre de falhas no maior tempo po
 ###Usabilidade
 
 Facilitar a utilização dos usuários ao lidarem com a ferramenta
+
+###Requisitos de Compatibilidade
+
+Aqui são especificadas quais as compatibilidades necessárias para a execução do sistema. Logo, podem fazer parte dessa solicitação a compatibilidade com navegadores,
+ em quais versões do sistema operacional o sistema é capaz de rodar etc.
+
+###Requisitos de Legais
+
+ Nos requisitos legais correspondem às necessidades de implementação de padrões exigidos por lei, como normas específicas,
+ adoção de processos para garantir a segurança da informação (como os exigidos pela LGPD — Lei Geral de Proteção de Dados), entre outros.
+
+###Requisitos éticos
+
+Garantem à pessoa utilizadora do sistema que seus dados não serão compartilhados para outras pessoas e que informações sensívei, não serão visíveis a olho nu. 
+
+
