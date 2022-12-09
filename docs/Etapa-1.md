@@ -60,17 +60,29 @@ Garantir maior probabilidade de uma operação livre de falhas no maior tempo po
 Facilitar a utilização dos usuários ao lidarem com a ferramenta
 
 ###Requisitos de Compatibilidade
-
-Aqui são especificadas quais as compatibilidades necessárias para a execução do sistema. Logo, podem fazer parte dessa solicitação a compatibilidade com navegadores,
- em quais versões do sistema operacional o sistema é capaz de rodar etc.
+Aqui são especificadas quais as compatibilidades necessárias para a execução do sistema. Logo, podem fazer parte dessa solicitação a compatibilidade com navegadores, em quais versões do sistema operacional o sistema é capaz de rodar etc.
 
 ###Legalidade
-
- Nos requisitos legais correspondem às necessidades de implementação de padrões exigidos por lei, como normas específicas,
- adoção de processos para garantir a segurança da informação (como os exigidos pela LGPD — Lei Geral de Proteção de Dados), entre outros.
+Nos requisitos legais correspondem às necessidades de implementação de padrões exigidos por lei, como normas específicas, adoção de processos para garantir a segurança da informação (como os exigidos pela LGPD — Lei Geral de Proteção de Dados), entre outros.
 
 ###Requisitos éticos
-
 Garantem à pessoa utilizadora do sistema que seus dados não serão compartilhados para outras pessoas e que informações sensível, não serão visíveis a olho nu. 
 
 
+## 4. Criação das tabelas no Banco de Dados pelo Mysql.
+
+Criaçao das tabelas com base na modelagem do banco de Dados.
+
+1. Tabela Denunciante (contendo: Cpf como chave primaria, Nome, data de nascimento, sexo, email, endereço, telefone e contato emergencial).
+
+2. Tabela Denuncia (contendo: Protocolo como chave primaria, corpo, data e hora).
+
+3. Tabela Agente_Publico (contendo: Cpf como chave primaria, nome, cargo, email, endereço, telefone).
+
+4. Tabela Analise (contendo: id_Protocolo como chave secundaria referenciando a tabela denuncia, despacho, data).
+
+5. Tabela Endereço (contendo: Cpf_Denunciante como chave secundaria onde referencia a tabela denunciante, rua, numero, bairro e cep).
+
+6. Tabela Contato Emergencial (contenco:Cpf_Denunciante como chave secundaria onde referencia a tabela denunciante e contato).
+
+7. Tabela Endereço agente_publico (contenco: Cpf_agente_publico como chave secundaria onde referencia a tabela agente publico, rua, numero, bairro e cep).
