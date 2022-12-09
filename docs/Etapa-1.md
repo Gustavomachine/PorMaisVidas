@@ -72,7 +72,27 @@ Nos requisitos legais correspondem às necessidades de implementação de padrõ
 Garantem à pessoa utilizadora do sistema que seus dados não serão compartilhados para outras pessoas e que informações sensível, não serão visíveis a olho nu. 
 
 
-## 4. Criação das tabelas no Banco de Dados pelo Mysql.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 6. Criação das tabelas no Banco de Dados pelo Mysql.
 
 Criaçao das tabelas com base na modelagem do banco de Dados.
 
