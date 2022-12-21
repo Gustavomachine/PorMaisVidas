@@ -1,6 +1,6 @@
 ########################################################## Análise de Projeto #######################################################
 
-### Criação das tabelas no Banco de Dados pelo Mysql:
+### Criação das tabelas no Banco de Dados pelo Mysql
 
 Criaçao das tabelas com base na modelagem do banco de Dados.
 
@@ -17,6 +17,9 @@ Criaçao das tabelas com base na modelagem do banco de Dados.
 6. Tabela Contato Emergencial (contenco:Cpf como chave primaria (PK) e (FK) como chave  estrangueira onde referencia a tabela denunciante e contato).
 
 7. Tabela Endereço agente_publico (contenco: Cpf como chave primaria (PK) e (FK) como chave estrangueira onde referencia a tabela agente publico, rua, numero, bairro e cep).
+
+
+
 
 
 
