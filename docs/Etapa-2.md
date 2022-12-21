@@ -1,6 +1,11 @@
 ########################################################## Análise de Projeto #######################################################
 
 ![Criação da modelagem de banco de dados](..\images\ModelagemdeBancodeDados.png)
+
+![Criação do Diagrama de Casos de uso; login e registro](..\images\Diagrama_de_Casos_de_uso;login_e_registro.jpg)
+
+![Criação do Diagrama de Casos de uso; telas principais](..\images\Diagrama_de_Casos_de_uso;telas_principais.jpg)
+
 ### Criação das tabelas no Banco de Dados pelo Mysql
 
 Criaçao das tabelas com base na modelagem do banco de Dados.
