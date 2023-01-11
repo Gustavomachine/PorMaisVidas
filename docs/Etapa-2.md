@@ -21,9 +21,9 @@ Criaçao das tabelas com base na modelagem do banco de Dados.
 
 4. Tabela Analise (contendo: id_Protocolo como chave primaria (PK) e (FK) como chave estrangueira referenciando a tabela denuncia, despacho, data).
 
-5. Tabela Endereço (contendo: Cpf como chave primaria (PK) e (FK) como chave  estrangueira onde referencia a tabela denunciante, rua, numero, bairro e cep).
+5. Tabela Endereço (contendo: Cpf_endereco como chave  estrangueira onde referencia a tabela denunciante, rua, numero, bairro e cep).
 
-6. Tabela Contato Emergencial (contenco:Cpf como chave primaria (PK) e (FK) como chave  estrangueira onde referencia a tabela denunciante e contato).
+6. Tabela Contato Emergencial (contendo : nome e telefone como chave composta)
 
 7. Tabela Endereço agente_publico (contenco: Cpf como chave primaria (PK) e (FK) como chave estrangueira onde referencia a tabela agente publico, rua, numero, bairro e cep).
 
