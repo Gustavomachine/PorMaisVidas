@@ -13,19 +13,19 @@
 
 Criaçao das tabelas com base na modelagem do banco de Dados.
 
-1. Tabela Denunciante (contendo: Cpf como chave primaria, Nome, data de nascimento, sexo, email, endereço, telefone e contato emergencial).
+1. Tabela Denunciante (contendo: Cpf como chave primaria (PK) e (FK) como chave estrangueira referenciando as tabelas endereco e denuncia, Nome, data de nascimento, sexo, email, endereço, telefone e contato emergencial).
 
-2. Tabela Denuncia (contendo: Protocolo como chave primaria, corpo, data e hora).
+2. Tabela Denuncia (contendo: Protocolo como chave primaria (PK) e  cpf (FK) como chave estrangueira referenciando a tabela denuncia, corpo, data e hora).
 
 3. Tabela Agente_Publico (contendo: Cpf como chave primaria, nome, cargo, email, endereço, telefone).
 
-4. Tabela Analise (contendo: id_Protocolo como chave primaria (PK) e (FK) como chave estrangueira referenciando a tabela denuncia, despacho, data).
+4. Tabela Analise (contendo: protocolo como chave primaria (PK) e (FK) como chave estrangueira referenciando a tabela denuncia, e cpf (FK) como chave estrangueira referenciando a tabela agente_publico, despacho, data).
 
-5. Tabela Endereço (contendo: Cpf_endereco como chave  estrangueira onde referencia a tabela denunciante, rua, numero, bairro e cep).
+5. Tabela Endereço (contendo: Cpf_endereco como chave estrangueira onde referencia a tabela denunciante, rua, numero, bairro e cep).
 
 6. Tabela Contato Emergencial (contendo : nome e telefone como chave composta)
 
-7. Tabela Endereço agente_publico (contenco: Cpf como chave primaria (PK) e (FK) como chave estrangueira onde referencia a tabela agente publico, rua, numero, bairro e cep).
+7. Tabela Endereço_agente_publico (contenco: Cpf_endereco_agente como chave primaria(PK ) e (FK) como chave estrangueira onde referencia a tabela agente_publico, rua, numero, bairro e cep).
 
 
 
