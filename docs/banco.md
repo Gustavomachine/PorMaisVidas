@@ -26,7 +26,6 @@ bairro varchar(255),
 cep int(8),
 foreign key(cpf) REFERENCES denunciante(cpf)
 on update cascade on delete cascade
-
 );
 
 create table denuncia(
@@ -57,9 +56,7 @@ primary key, (cpf, id_analise),
 foreign key(id_analise) REFERENCES denuncia(id_analise)
 on update cascade on delete cascade,
 foreign key(cpf) REFERENCES agente_publico(cpf)
-on update cascade on delete cascade
-
-   
+on update cascade on delete cascade  
 );
 
 
@@ -72,6 +69,3 @@ cep int(8)
 FOREIGN KEY(cpf) REFERENCES agente_publico(cpf)
 on update cascade on delete cascade
 );
-
-
-
