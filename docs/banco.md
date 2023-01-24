@@ -22,7 +22,7 @@ id_analise int(10)AUTO_INCREMENT PRIMARY KEY
    
 );
 create table denuncia(
-protocolo int(10) AUTO_INCREMENT PRIMARY KEY,
+protocolo int(10),
 corpo varchar(255),
 data date,
 hora time,
