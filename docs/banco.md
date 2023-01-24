@@ -69,3 +69,4 @@ cep int(8)
 FOREIGN KEY(cpf) REFERENCES agente_publico(cpf)
 on update cascade on delete cascade
 );
+
