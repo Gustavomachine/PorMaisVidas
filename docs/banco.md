@@ -63,3 +63,4 @@ telefone int UNIQUE,
 FOREIGN KEY(cpf) REFERENCES endereco_agente_publico(cpf)
 on update cascade on delete cascade
 );
+
