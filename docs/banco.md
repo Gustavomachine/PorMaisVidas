@@ -6,7 +6,8 @@ nome varchar(255) not null,
 data_de_nascimento date not null, 
 sexo varchar(255), 
 email varchar(255) not null, 
-telefone int UNIQUE
+telefone int UNIQUE,
+senha varchar(255) UNIQUE
 );
 
 create table contato_emergencial(
@@ -43,7 +44,8 @@ cpf int PRIMARY key,
 nome varchar(255),
 cargo varchar(255),
 email varchar(255),
-telefone int UNIQUE
+telefone int UNIQUE,
+senha varchar(255) UNIQUE
 );
 
 create table analise(
