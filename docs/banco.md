@@ -3,7 +3,7 @@
 create table denunciante(
 cpf int PRIMARY key, 
 nome varchar(255) not null, 
-data_de_nascimento date not null, 
+data_de_nascimento varchar(255) not null, 
 sexo varchar(255), 
 email varchar(255) not null, 
 telefone int UNIQUE,
@@ -32,7 +32,7 @@ on update cascade on delete cascade
 create table denuncia(
 protocolo int(10) PRIMARY KEY,
 corpo varchar(255),
-data date,
+data varchar(255),
 hora time,  
 cpf int ,
 foreign key(cpf) REFERENCES denunciante(cpf)
@@ -50,7 +50,7 @@ senha varchar(255) UNIQUE
 
 create table analise(
 despacho varchar(255),
-data date,
+data varchar(255),
 cpf int PRIMARY KEY,
 protocolo int(10), 
 foreign key(cpf) REFERENCES agente_publico(cpf)
