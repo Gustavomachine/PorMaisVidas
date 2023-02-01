@@ -32,7 +32,7 @@ on update cascade on delete cascade
 );
 
 create table denuncia(
-protocolo int(10) PRIMARY KEY,
+protocolo int PRIMARY KEY AUTO_INCREMENT,
 corpo varchar(255),
 data varchar(255),
 hora time,  
