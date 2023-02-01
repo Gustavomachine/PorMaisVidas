@@ -22,7 +22,7 @@ on update cascade on delete cascade
 create table endereco(
 cpf int primary key,
 rua varchar(255), 
-numero int(10), 
+numero varchar(255), 
 bairro varchar(255), 
 cep int(8),
 foreign key(cpf) REFERENCES denunciante(cpf)
@@ -62,7 +62,7 @@ on update cascade on delete cascade
 create table endereco_agente_publico(
 cpf int primary key,
 rua varchar(255), 
-numero int(10), 
+numero varchar(255), 
 bairro varchar(255), 
 cep int(8),
 FOREIGN KEY(cpf) REFERENCES agente_publico(cpf)
