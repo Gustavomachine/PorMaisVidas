@@ -25,6 +25,8 @@ rua varchar(255),
 numero varchar(255), 
 bairro varchar(255), 
 cep int(8),
+estado varchar(255),
+cidade varchar(255),
 foreign key(cpf) REFERENCES denunciante(cpf)
 on update cascade on delete cascade
 );
@@ -65,6 +67,8 @@ rua varchar(255),
 numero varchar(255), 
 bairro varchar(255), 
 cep int(8),
+estado varchar(255),
+cidade varchar(255),
 FOREIGN KEY(cpf) REFERENCES agente_publico(cpf)
 on update cascade on delete cascade
 );
