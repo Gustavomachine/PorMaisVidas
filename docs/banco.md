@@ -33,9 +33,7 @@ on update cascade on delete cascade
 
 create table denuncia(
 protocolo int PRIMARY KEY AUTO_INCREMENT,
-corpo varchar(255),
-data varchar(255),
-hora time,  
+corpo varchar(255),  
 cpf int ,
 foreign key(cpf) REFERENCES denunciante(cpf)
 on update cascade on delete cascade
