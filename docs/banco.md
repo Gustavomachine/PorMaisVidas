@@ -41,7 +41,7 @@ senha varchar(255) UNIQUE
 
 create table analise(
 despacho varchar(255),
-data varchar(255),
+estado varchar(255),
 cpf int PRIMARY KEY,
 protocolo int(10),
 foreign key(cpf) REFERENCES agente_publico(cpf)
