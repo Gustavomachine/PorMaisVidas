@@ -42,8 +42,8 @@ senha varchar(255) UNIQUE
 create table analise(
 despacho varchar(255),
 estado varchar(255),
-cpf int PRIMARY KEY,
-protocolo int(10),
+cpf int UNIQUE,
+protocolo int PRIMARY KEY,
 foreign key(cpf) REFERENCES agente_publico(cpf)
 on update cascade on delete cascade,
 FOREIGN key(protocolo) REFERENCES denuncia(protocolo)
