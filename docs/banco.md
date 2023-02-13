@@ -42,7 +42,7 @@ senha varchar(255) UNIQUE
 create table analise(
 despacho varchar(255),
 estado varchar(255),
-cpf int UNIQUE,
+cpf int not null,
 protocolo int PRIMARY KEY,
 foreign key(cpf) REFERENCES agente_publico(cpf)
 on update cascade on delete cascade,
